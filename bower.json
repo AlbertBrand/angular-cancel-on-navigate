@@ -1,0 +1,33 @@
+{
+  "name": "angular-cancel-on-navigate",
+  "version": "0.1.0",
+  "description": "AngularJS module that cancels HTTP requests on location change (navigation)",
+  "main": "src/angularCancelOnNavigateModule.js",
+  "homepage": "https://github.com/AlbertBrand/angular-cancel-on-navigate",
+  "authors": [
+    "Albert Brand <abrand@xebia.com>"
+  ],
+  "keywords": [
+    "angular",
+    "js",
+    "angularjs",
+    "http",
+    "cancel",
+    "location",
+    "change",
+    "route",
+    "listener"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.3.0",
+    "angular-mocks": "~1.3.0"
+  }
+}
