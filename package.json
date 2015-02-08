@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "AngularJS module that cancels HTTP requests on location change (navigation)",
   "main": "src/angularCancelOnNavigateModule.js",
+  "homepage": "https://github.com/AlbertBrand/angular-cancel-on-navigate",
   "directories": {
     "test": "test"
   },
@@ -30,5 +31,13 @@
     "karma": "~0.12.0",
     "karma-jasmine": "~0.3.0",
     "karma-phantomjs-launcher": "~0.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.9.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0"
   }
 }
